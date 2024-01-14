@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('../images/background-image.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: #f0f0f0;
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        aside {
+            order: 2; /*remove this line to make it apear on the left side*/
+            width: 200px; /* Adjust the width as needed */
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        main {
+            flex: 1;
+            padding: 20px;
+            font-size: 16px; /* Adjust font size for better responsiveness */
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Signup Form</h1>
+    </header>
+
+    <div class="container">
+        <aside>
+            <img src="../images/OdinProject.png" alt="Odin Project Logo">
+            <!-- Update alt text accordingly -->
+        </aside>
+
+        <main>
+            <h2>Welcome to Your Website!</h2>
+            <p>This is a simple boilerplate for your website. Customize it according to your needs.</p>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Signup Form. All rights reserved.</p>
+    </footer>
+</body>
+</html>
